@@ -1,6 +1,4 @@
 # sql_assignment
+[Download the full PDF](path/to/DBMSLABQUESTIONS.pdf)
 
-![PDF Preview](DBMSLABQUESTIONS.pdf/to/pdf-preview.png)
-
-[Download the full PDF](DBMSLABQUESTIONS.pdf/to/your-file.pdf)
 
