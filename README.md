@@ -1,4 +1,5 @@
-# sql_assignment
-[Download the full PDF](path/to/DBMSLABQUESTIONS.pdf)
+ Create a table EMPLOYEE as follows:
+```sql
 
-
+create database gsce;
+```
