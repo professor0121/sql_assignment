@@ -90,8 +90,13 @@ select max(salary) as highest_salary from employee;
 ```
 o)update the record with lowest salary by 5000.
 ```sql
-update employee set salary=salary+5000
-where salary=(select min(salary) from employee);
+UPDATE employee 
+SET salary = salary + 5000
+WHERE salary = (
+    SELECT min_salary
+    FROM (SELECT MIN(salary) AS min_salary FROM employee) AS temp
+);
+
 ```
 p)display records in descending order of salary using order by clause.
 ```sql
