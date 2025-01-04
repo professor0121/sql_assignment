@@ -100,7 +100,8 @@ WHERE salary = (
 ```
 p)display records in descending order of salary using order by clause.
 ```sql
-select * form employee order be desc;
+SELECT * FROM EMPLOYEE ORDER BY SALARY DESC;
+
 ```
 
 2.Write SQL syntax with examples of 10 String functions.
