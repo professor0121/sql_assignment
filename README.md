@@ -160,7 +160,6 @@ SELECT INSTR('Database', 'base') AS Position;
 ```
 
 
-3. Write SQL syntax with examples of 10 mathematical functions.
 3. Mathematical Functions
 Examples with syntax:
 
