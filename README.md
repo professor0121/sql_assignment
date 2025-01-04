@@ -110,54 +110,49 @@ Examples with syntax:
 
 CONCAT:
 ```sql
-
-SELECT CONCAT('Hello', ' World') AS Greeting;
+    SELECT CONCAT('Hello', ' World') AS Greeting;
 ```
-
 
 LENGTH:
  ```sql
-SELECT LENGTH('Database') AS Length;
+    SELECT LENGTH('Database') AS Length;
 ```
+
 UPPER:
 ```sql
-
-SELECT UPPER('database') AS UpperCase;
+    SELECT UPPER('database') AS UpperCase;
 ```
+
 LOWER:
 ```sql
-
-SELECT LOWER('DATABASE') AS LowerCase;
+    SELECT LOWER('DATABASE') AS LowerCase;
 ```
 SUBSTRING:
 ```sql
-
-SELECT SUBSTRING('Database Management', 1, 8) AS SubString;
+    SELECT SUBSTRING('Database Management', 1, 8) AS SubString;
 ```
+
 REPLACE:
 ```sql
-
-SELECT REPLACE('Hello World', 'World', 'DBMS') AS ReplacedString;
+    SELECT REPLACE('Hello World', 'World', 'DBMS') AS ReplacedString;
 ```
 TRIM:
 ```sql
-
-SELECT TRIM('  Hello  ') AS TrimmedString;
+    SELECT TRIM('  Hello  ') AS TrimmedString;
 ```
+
 RIGHT:
 ```sql
-
-SELECT RIGHT('Database', 4) AS RightPart;
+    SELECT RIGHT('Database', 4) AS RightPart;
 ```
+
 LEFT:
 ```sql
-
-SELECT LEFT('Database', 4) AS LeftPart;
+    SELECT LEFT('Database', 4) AS LeftPart;
 ```
 INSTR:
 ```sql
-
-SELECT INSTR('Database', 'base') AS Position;
+    SELECT INSTR('Database', 'base') AS Position;
 ```
 
 
@@ -166,29 +161,29 @@ Examples with syntax:
 
 ABS:
 ```sql
-
 SELECT ABS(-10) AS AbsoluteValue;
 ```
+
 CEIL:
 ```sql
-
 SELECT CEIL(10.5) AS CeilValue;
 ```
+
 FLOOR:
 ```sql
-
-SELECT FLOOR(10.5) AS FloorValue;
+    SELECT FLOOR(10.5) AS FloorValue;
 ```
+
 ROUND:
 ```sql
-
-SELECT ROUND(10.567, 2) AS RoundedValue;
+    SELECT ROUND(10.567, 2) AS RoundedValue;
 ```
+
 MOD:
 ```sql
-
-SELECT MOD(10, 3) AS ModValue;
+    SELECT MOD(10, 3) AS ModValue;
 ```
+
 POWER:
 ```sql
 
